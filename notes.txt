@@ -1,0 +1,19 @@
+// village DB
+
+1. pagination query for villages data (get)
+2. post a village
+3. update a village by id
+4. delete a village by id
+5. get village by id
+
+// houseHolders and Business DB
+1. post a house data
+2. post a business data
+3. pagination query for house and business data (get)
+4. get single house and business by id
+5. delete single house an business by id
+
+// Users DB
+
+1. post a user 
+2. 

@@ -1,0 +1,94 @@
+// app.get("/villages", async (req, res) => {
+    //   try {
+    //     const page = parseInt(req.query.page);
+    //     const size = parseInt(req.query.size);
+
+    //     // console.log("page:", page, "size: ", size);
+
+    //     const result = await villageCollection
+    //       .find()
+    //       .skip(page * size)
+    //       .limit(size)
+    //       .toArray();
+
+    //     // res.send(result);
+    //     res.send(result);
+    //   } catch (error) {
+    //     console.log(error);
+    //     res.send(error);
+    //   }
+    // });
+
+    // app.get("/village/:id", async (req, res) => {
+    //   try {
+    //     const id = req.params.id;
+    //     const query = { _id: new ObjectId(id) };
+    //     const result = (await villageCollection.findOne(query)) || {};
+
+    //     res.send(result);
+    //   } catch (error) {
+    //     res.send(error);
+    //   }
+    // });
+
+    // app.post("/village", async (req, res) => {
+    //   try {
+    //     const villageDoc = req.body;
+
+    //     const result = await villageCollection.insertOne(villageDoc);
+    //     res.send(result);
+    //   } catch (error) {
+    //     res.send(error);
+    //   }
+    // });z
+
+
+     // app.put("/villages/:id", async (req, res) => {
+    //   try {
+    //     const id = req.params.id;
+    //     const filter = { _id: new ObjectId(id) };
+
+    //     const option = { upsert: true };
+
+    //     const updatedVillageDoc = req.body;
+
+    //     const newVillageDoc = {
+    //       $set: {
+    //         ...updatedVillageDoc,
+    //       },
+    //     };
+
+    //     const result = await villageCollection.updateOne(
+    //       filter,
+    //       newVillageDoc,
+    //       option
+    //     );
+
+    //     res.send(result);
+    //   } catch (error) {
+    //     res.send(error);
+    //   }
+    // });
+
+
+    // app.delete("/village/:id", async (req, res) => {
+    //   try {
+    //     const id = req.params.id;
+    //     const query = { _id: new ObjectId(id) };
+
+    //     const result = await villageCollection.deleteOne(query);
+    //     res.send(result);
+    //   } catch (error) {
+    //     console.log(error);
+    //     res.send(error);
+    //   }
+    // });
+
+    
+
+
+
+
+
+
+
